@@ -1,0 +1,31 @@
+.container {
+    height: 30vh;
+    margin: 0 auto;
+
+}
+.joining{
+    margin-left: 40%;
+}
+.join-form {
+    position: absolute;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+    height: 300px;
+    width: 400px;
+}
+
+.join-form h2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.join-btn {
+    width: 100%;
+}
+
+.google-btn {
+    width: 100%;
+}
