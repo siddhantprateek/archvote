@@ -1,0 +1,28 @@
+
+.phone-num{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #000000;
+    background: rgba(196, 196, 196, 0.18);
+}
+.phone-num::placeholder{
+    color: #000000;
+}
+
+
+.continue-btn {
+    margin: 10px auto;
+    padding: 2px 10px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    transition: all .4s;
+    font-weight: 900;
+    background-color: #ffd615;
+}
+
+
+.continue-btn:active{
+    transform: scale(0.9);
+}
