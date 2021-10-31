@@ -19,7 +19,13 @@
 /client/.env.development.local
 /client/.env.test.local
 /client/.env.production.local
+/server/.env
 
 /client/npm-debug.log*
 /client/yarn-debug.log*
 /client/yarn-error.log*
+
+# Credentials
+/client/src/auth
+/client/src/auth_config.json
+/server/twilio_config.js
