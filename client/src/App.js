@@ -11,15 +11,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
-        {/* <BadgeList/> */}
-
 
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/join" component={Join} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-        {/* <h1>Hey</h1> */}
       </div>
     );
   }
