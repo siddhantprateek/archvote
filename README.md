@@ -1,3 +1,4 @@
+![badge](https://img.shields.io/badge/STATUS-In_Progress-success?style=for-the-badge&logo=appveyor)
 # ArchVote
 
 ![ArchVote-banner](https://i.imgur.com/MymVo3i.png)
@@ -15,8 +16,9 @@
 
 ## Application UI Design
 ![](https://i.imgur.com/qmvmWzB.png)
-## Current Application Priview
-![](https://i.imgur.com/XHYcpsO.png)
+<!-- ## Current Application Priview
+![](https://i.imgur.com/XHYcpsO.png) -->
+
 ## Aplication Architecture
 
 ![Archvote-Architecture](https://i.imgur.com/VAeTN1J.png)
@@ -28,7 +30,7 @@
 - To use this project you need to fork it. After creating a fork. Clone the repository
 ```shell
 
-$ git clone git@/<your-github-username>/archvote.git
+$ git@github.com:<your-github-username>/archvote.git
 $ cd archvote
 
 ```
