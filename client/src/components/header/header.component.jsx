@@ -18,6 +18,7 @@ export default function Header() {
         {/* Application navigation options */}
         <ul className="nav-list">
           <li><Link className="options" to="/">Home</Link></li>
+          <li><Link className="options" to="/dashboard">Dashboard</Link></li>
           <li><Link className="options" to="/contact">Contact</Link></li>
           <li>
             <form action="">
