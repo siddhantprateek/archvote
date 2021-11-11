@@ -26,6 +26,6 @@
 /client/yarn-error.log*
 
 # Credentials
-/client/src/auth
+# /client/src/auth
 /client/src/auth_config.json
 /server/twilio_config.js

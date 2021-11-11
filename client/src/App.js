@@ -6,8 +6,25 @@ import Join from './pages/join/join.pages';
 import Contact from './pages/contact/contact.pages';
 import Home from './pages/home/home.pages';
 import Dashboard from './pages/dashboard/dashboard.pages';
-class App extends React.Component {
-  render(){
+
+import Loading from "./components/Loading/Loading.component";
+// import ExternalApi from "./views/ExternalApi";
+
+
+import { useAuth0 } from "@auth0/auth0-react";
+
+
+const App = () => {
+    const { isLoading, error } = useAuth0();
+    
+    if (error) {
+      return <div>Oops... {error.message}</div>;
+    }
+  
+    if (isLoading) {
+      return <Loading />;
+    }
+
     return (
       <div className="App">
         <Header/>
@@ -20,7 +37,6 @@ class App extends React.Component {
         </Switch>
       </div>
     );
-  }
-}
 
+};
 export default App;
