@@ -1,0 +1,21 @@
+/* Join Button */
+
+.btn {
+    padding: 2px 40px;
+    font-weight: 700;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 2px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}

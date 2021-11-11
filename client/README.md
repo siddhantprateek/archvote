@@ -1,5 +1,14 @@
 
+### Add Auth Configuration to by make `src\auth_config.json` file
+```
 
+{
+  "domain": "YOUR AUTH DOMAIN",
+  "clientId": "YOUR AUTH CLIENT ID",
+  "audience": "YOUR AUDIENCE"
+}
+
+```
 ### `Client` folder Structure
 ```
 public\
