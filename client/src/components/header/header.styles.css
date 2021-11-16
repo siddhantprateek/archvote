@@ -4,7 +4,7 @@ img {
 }
 /* Navigation bar */
 .navbar {
-    background-color: black;
+    background-color: #EEEEEE;
     padding: 12px 10px;
 }
 nav {
@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-list li a {
-    color: white;
+    color: black;
     font-size: 1.2rem;
     font-weight: 700;
     text-decoration: none;
@@ -42,7 +42,7 @@ nav {
 
 .search-box {
     padding: 0 12px;
-    background-color: #858585;
+    background-color: #c0c0c0;
     height: 30px;
     border: none;
     outline: none;
@@ -50,7 +50,7 @@ nav {
 }
 
 .search-box::placeholder {
-    color: white;
+    color: black;
 }
 
 /* Join Button */
@@ -61,6 +61,7 @@ nav {
     background-color: yellow;
     cursor: pointer;
     margin: 2px 10px;
+    height: 30px;
     border: none;
     outline: none;
     border-radius: 20px;

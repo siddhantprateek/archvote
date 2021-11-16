@@ -1,17 +1,16 @@
 import './header.styles.css';
 import { Link } from 'react-router-dom';
-import logo from "../../assets/logo/logo.svg"
-// import { Join } from '../login-button/login.component';
+import logo from "../../assets/logo/logo-black.png"
 import { useAuth0 } from "@auth0/auth0-react";
-// import { Logout } from '../logout-button/logout.component';
+
 export default function Header() {
-  // const [isOpen, setIsOpen] = useState(false);
+  
   const {
     isAuthenticated,
     loginWithRedirect,
     logout,
   } = useAuth0();
-  // const toggle = () => setIsOpen(!isOpen);
+  
 
   const logoutWithRedirect = () =>
     logout({
@@ -32,11 +31,11 @@ export default function Header() {
         {/* Application navigation options */}
         <ul className="nav-list">
           <li><Link className="options" to="/">Home</Link></li>
+          <li><Link className="options" to="/contact">Contact</Link></li>
           <li>{ isAuthenticated && (
                       <Link className="options" to="/dashboard">Dashboard</Link>
                 )}
             </li>
-          <li><Link className="options" to="/contact">Contact</Link></li>
           <li>
             <form action="">
               <input
@@ -57,7 +56,6 @@ export default function Header() {
                       >Logout</button>
 
                 )}
-              {/* <button className="btn">Join</button> */}
 
             </form>
           </li>

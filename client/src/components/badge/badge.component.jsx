@@ -1,13 +1,23 @@
 import './badge.styles.css';
 import { Tags } from '../tag/tag.component';
+import { useState } from 'react';
 
-export const Badge = () => (
 
-    <div className="badge-container">
+export const Badge = () => {
+    const previousCountState = 456;
+
+    const [vote, setVote] = useState(false);
+
+    const handleVoteClick = () => {
+        setVote(!vote);
+    }
+    
+
+    return(<div className="badge-container">
         <div className="badge-content">
-            <div className="counter-div">
+            <div className="counter-div" onClick={handleVoteClick}>
                 <img src={`https://img.icons8.com/fluency-systems-filled/48/000000/triangle.png`} className="triangle" alt="triangle" />
-                <h3>456</h3>
+                <h3>{vote ? previousCountState + 1 : previousCountState }</h3>
             </div>
             <div className="badge-props-content">
                 <h2>ICU-BED</h2>
@@ -31,7 +41,7 @@ export const Badge = () => (
             </div>
             </div>
         </div>
-    </div>
+    </div>)
     
     
-);
+};

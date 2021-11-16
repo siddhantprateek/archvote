@@ -1,0 +1,22 @@
+[
+    {
+        "title": "ICU-BED",
+        "tags": ["urgent", "immdiately", "important"],
+        "votes": 456
+    },
+    {
+        "title": "MEDICAL SUPPLIES",
+        "tags": ["urgent", "immdiately", "important"],
+        "votes": 798
+    },
+    {
+        "title": "AMBULANCE",
+        "tags": ["urgent", "immdiately", "important"],
+        "votes": 156
+    },
+    {
+        "title": "Paramedics",
+        "tags": ["All", "important"],
+        "votes": 798
+    }
+]

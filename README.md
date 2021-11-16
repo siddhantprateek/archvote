@@ -15,7 +15,8 @@
        - [Stripe](https://stripe.com/)
 
 ## Application UI Design
-![](https://i.imgur.com/qmvmWzB.png)
+
+![](https://i.imgur.com/p2QutBL.png)
 <!-- ## Current Application Priview
 ![](https://i.imgur.com/XHYcpsO.png) -->
 

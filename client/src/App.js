@@ -10,7 +10,6 @@ import Dashboard from './pages/dashboard/dashboard.pages';
 import Loading from "./components/Loading/Loading.component";
 // import ExternalApi from "./views/ExternalApi";
 
-
 import { useAuth0 } from "@auth0/auth0-react";
 
 

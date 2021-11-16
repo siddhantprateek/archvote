@@ -1,0 +1,20 @@
+.bg-image{
+    margin-left: 10%;
+}
+.home-image{
+    position: absolute;
+    width: 60rem;
+    height: auto;
+    z-index: -2;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 50%;
+}
+
+.home-content h1:nth-child(2){
+    margin-top: -3.5rem;
+    font-size: 8rem;
+}
