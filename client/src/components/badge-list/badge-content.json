@@ -18,5 +18,10 @@
         "title": "Paramedics",
         "tags": ["All", "important"],
         "votes": 798
+    },
+    {
+        "title": "Water Tank",
+        "tags": ["All", "important"],
+        "votes": 20
     }
 ]

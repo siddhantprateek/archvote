@@ -3,8 +3,8 @@ import { Tags } from '../tag/tag.component';
 import { useState } from 'react';
 
 
-export const Badge = () => {
-    const previousCountState = 456;
+export const Badge = (props) => {
+    const previousCountState = props.votes;
 
     const [vote, setVote] = useState(false);
 
@@ -20,7 +20,7 @@ export const Badge = () => {
                 <h3>{vote ? previousCountState + 1 : previousCountState }</h3>
             </div>
             <div className="badge-props-content">
-                <h2>ICU-BED</h2>
+                <h2>{props.title}</h2>
                 <hr />
                 <h4>Status</h4>
                 <div className="tag-container">
