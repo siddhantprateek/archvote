@@ -1,4 +1,7 @@
 /* logo  */
+.container {
+    height: 3rem;
+}
 img {
     height: 40px;
 }

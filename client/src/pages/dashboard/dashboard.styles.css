@@ -1,0 +1,28 @@
+.dashboard-page{
+    margin-top: 10%;
+}
+
+.post-req{
+    position: fixed;
+    margin-top: 67vh;
+    margin-left: 94vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: yellow;
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+}
+.post-req img {
+    height: 30px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.post-req:active{
+    transform: scale(0.95);
+}

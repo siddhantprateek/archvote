@@ -30,12 +30,8 @@ export default function Header() {
 
         {/* Application navigation options */}
         <ul className="nav-list">
-          <li><Link className="options" to="/">Home</Link></li>
           <li><Link className="options" to="/contact">Contact</Link></li>
-          <li>{ isAuthenticated && (
-                      <Link className="options" to="/dashboard">Dashboard</Link>
-                )}
-            </li>
+          <li>{ isAuthenticated && (<Link className="options" to="/dashboard">Dashboard</Link>)}</li>
           <li>
             <form action="">
               <input
@@ -49,12 +45,10 @@ export default function Header() {
                       >Log In</button>
                 )}
                 { isAuthenticated && (
-   
                       <button 
                       className="btn" 
                       onClick={() => logoutWithRedirect()} 
                       >Logout</button>
-
                 )}
 
             </form>

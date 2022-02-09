@@ -1,0 +1,15 @@
+
+.no-match img {
+    height: 600px;
+    /* width: 400px; */
+}
+
+.no-match-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.no-match-content h1{
+    font-size: 5rem;
+}

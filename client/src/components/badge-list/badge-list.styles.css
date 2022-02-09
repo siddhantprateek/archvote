@@ -1,7 +1,7 @@
 .badge-list {
   /* background-color: orange; */
   max-width: 100%;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: flex;
   padding: 5px 10px;
   margin-right: 10%;

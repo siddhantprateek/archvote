@@ -1,6 +1,6 @@
 import React from "react";
 import loading from "../../assets/loading.svg";
-
+import './Loading.style.css';
 const Loading = () => (
   <div className="spinner">
     <img src={loading} alt="Loading" />
