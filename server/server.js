@@ -4,9 +4,17 @@
 // var client = new twilio({TWILIO_ACCOUNT_SID}, {TWILIO_AUTH_TOKEN});
 
 const express = require('express');
+const dotenv = require('dotenv');
 const app = new express();
 const port = process.env.PORT || 4000;
+const Razorpay = require('razorpay');
 
+const instance = new Razorpay({
+  key_id: process.env.RAZORPAY_KEY_ID,
+  key_secret: process.env.RAZORPAY_KEY_SECRET
+})
+
+instance.payments.fetch(paymentId)
 
 // Send the text message.
 // client.messages.create({
